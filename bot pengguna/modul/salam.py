@@ -15,7 +15,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit(f"**Hallo Semua Saya {DEFAULTUSER}**")
     sleep(2)
-    await typew.edit("`Assalamualaikum.....`")
+    await typew.edit("`samlekom mamank.....`")
 # Owner @Si_Dian
 
 
@@ -35,7 +35,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Astaghfirulloh Jawab Salam Dong...`")
     sleep(1)
-    await typew.edit("`Waallaikumsalam......`")
+    await typew.edit("`GUE JAMET NIH AJARIN KEREN KYK LU DONG......`")
 # Owner @Si_Dian
 
 
