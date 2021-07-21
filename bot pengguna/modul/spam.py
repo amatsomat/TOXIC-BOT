@@ -37,7 +37,7 @@ async def tmeme(e):
             "WSpam was executed successfully")
 
 
-@bot.on(geezbot_cmd(outgoing=True, pattern="spam (.*)"))
+@bot.on(geezbot_cmd(outgoing=True, pattern="kontol (.*)"))
 async def spammer(e):
     counter = int(e.pattern_match.group(1).split(' ', 1)[0])
     spam_message = str(e.pattern_match.group(1).split(' ', 1)[1])
