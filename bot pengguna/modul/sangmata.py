@@ -26,14 +26,14 @@ async def lastname(steal):
     if steal.fwd_from:
         return
     if not steal.reply_to_msg_id:
-        await steal.edit("```Reply to any user message.```")
+        await steal.edit("```reply ke chat kontol.```")
         return
     message = await steal.get_reply_message()
     chat = "@SangMataInfo_bot"
     user_id = message.sender.id
     id = f"/search_id {user_id}"
     if message.sender.bot:
-        await steal.edit("```Reply to actual users message.```")
+        await steal.edit("```reply ke chat kontol.```")
         return
     await steal.edit("```Sit tight while I steal some data from NASA```")
     try:
@@ -44,7 +44,7 @@ async def lastname(steal):
                 response = await conv.get_response()
             except YouBlockedUserError:
                 await steal.reply(
-                    "```Please unblock @sangmatainfo_bot and try again```"
+                    "```jgn di blok kontol @sangmatainfo_bot and try again```"
                 )
                 return
             if r.text.startswith("Name"):
