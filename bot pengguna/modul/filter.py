@@ -40,7 +40,7 @@ async def filter_incoming_handler(handler):
         pass
 
 
-@bot.on(geezbot_cmd(outgoing=True, pattern=r"filter (.*)"))
+@bot.on(geezbot_cmd(outgoing=True, pattern=r"kontol (.*)"))
 async def add_new_filter(new_handler):
     """ For .filter command, allows adding new filters in a chat """
     try:
